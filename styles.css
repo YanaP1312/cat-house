@@ -1,1 +1,11 @@
 @import "./basic-styles.css";
+
+header,
+footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+footer {
+  background-color: var(--blue);
+}
