@@ -1,7 +1,8 @@
 :root {
   --common-font: Montserrat, sans-serif;
   --common-white: #fff;
-  --overlay: #2f2f37;
+  --overlay: rgba(18, 18, 22, 0.5);
+  --black: #2f2f37;
   --blue: #ecf6ff;
   --grey: #2c2c2c;
   --navy: #d8def8;
@@ -52,6 +53,7 @@ img {
   font-size: 28px;
   line-height: 1.28;
   letter-spacing: 0.02em;
+  margin-bottom: 24px;
 }
 
 .sub-title {
