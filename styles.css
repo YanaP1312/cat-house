@@ -141,7 +141,7 @@ footer {
 
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
-    width: 320px;
+    width: 288px;
   }
 }
 
