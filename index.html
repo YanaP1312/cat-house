@@ -39,14 +39,22 @@
           <ul class="list-hero">
             <li class="list-item-hero">
               <a href="#">
-                <img
-                  srcset="
-                    ./img/hero/hero1@2x-min.jpg 2x,
-                    ./img/hero/hero1-min.jpg    1x
-                  "
-                  src="./img/hero/hero1-min.jpg"
-                  alt="Cat on hands"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ./img/hero/hero1@2x-min.jpg 2x,
+                      ./img/hero/hero1-min.jpg    1x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./img/hero/hero1-mob@2x-min.jpg 2x,
+                      ./img/hero/hero1-mob-min.jpg    1x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./img/hero/hero1-min.jpg" alt="Cat on hands"
+                /></picture>
+
                 <div class="overlay">
                   <h3 class="sub-title">
                     Коти та їхні чудові навички: від полювання до загадкових
@@ -57,14 +65,21 @@
             </li>
             <li class="list-item-hero">
               <a href="#">
-                <img
-                  srcset="
-                    ./img/hero/hero2@2x-min.jpg 2x,
-                    ./img/hero/hero2-min.jpg
-                  "
-                  src="./img/hero/hero2-min.jpg"
-                  alt="Girl plays with cat"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ./img/hero/hero2@2x-min.jpg 2x,
+                      ./img/hero/hero2-min.jpg    1x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./img/hero/hero2-mob@2x-min.jpg 2x,
+                      ./img/hero/hero2-mob-min.jpg    1x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./img/hero/hero2-min.jpg" alt="Girl plays with cat"
+                /></picture>
                 <div class="overlay">
                   <h3 class="sub-title">
                     Коти в літературі та мистецтві: від Егіпетських богів до
@@ -75,14 +90,21 @@
             </li>
             <li class="list-item-hero">
               <a href="#">
-                <img
-                  srcset="
-                    ./img/hero/hero3@2x-min.jpg 2x,
-                    ./img/hero/hero3-min.jpg    1x
-                  "
-                  src="./img/hero/hero3-min.jpg"
-                  alt="Girl holds a cat"
-                />
+                <picture
+                  ><source
+                    srcset="
+                      ./img/hero/hero3@2x-min.jpg 2x,
+                      ./img/hero/hero3-min.jpg    1x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./img/hero/hero3-mob@2x-min.jpg 2x,
+                      ./img/hero/hero3-mob-min.jpg    1x
+                    "
+                    media="(max-width: 767px)" />
+                  <img src="./img/hero/hero3-min.jpg" alt="Girl holds a cat"
+                /></picture>
                 <div class="overlay">
                   <h3 class="sub-title">
                     Котячі породи для активних власників: як вибрати компаньйона
@@ -92,182 +114,185 @@
             </li>
           </ul>
         </section>
-        <section class="articles">
-          <ul class="list-articles">
-            <li class="list-item-articles">
-              <a href="#" class="articles-link">
+        <div class="common-container">
+          <section class="articles">
+            <ul class="list-articles">
+              <li class="list-item-articles">
+                <a href="#" class="articles-link">
+                  <img
+                    srcset="
+                      ./img/articles/articles1@2x-min.jpg 2x,
+                      ./img/articles/articles1-min.jpg    1x
+                    "
+                    src="./img/articles/articles1-min.jpg"
+                    alt="Cute cat"
+                    width="264"
+                    height="156"
+                  />
+                  <div class="wrap-topic">
+                    <h3 class="sub-title">
+                      Найпопулярніші породи котів: який кіт підходить вам?
+                    </h3>
+                    <p>
+                      Вивчіть найпопулярніші породи котів і їхні особливості,
+                      щоб зробити інформований вибір, який підходить саме вам.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="list-item-articles">
+                <a href="#" class="articles-link">
+                  <img
+                    srcset="
+                      ./img/articles/articles2@2x-min.jpg 2x,
+                      ./img/articles/articles2-min.jpg    1x
+                    "
+                    src="./img/articles/articles2-min.jpg"
+                    alt="Cats in the basket"
+                    width="264"
+                    height="156"
+                  />
+                  <div class="wrap-topic">
+                    <h3 class="sub-title">
+                      Як піклуватися про вашого пухнастого друга: догляд за
+                      котом
+                    </h3>
+                    <p>
+                      Дізнайтеся про основні аспекти догляду за котом, включаючи
+                      годування, гігієну та взаємодію з вашим улюбленцем.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="list-item-articles">
+                <a href="#" class="articles-link">
+                  <img
+                    srcset="
+                      ./img/articles/articles3@2x-min.jpg 2x,
+                      ./img/articles/articles3-min.jpg    1x
+                    "
+                    src="./img/articles/articles3-min.jpg"
+                    alt="Cat plays with butterfly"
+                    width="264"
+                    height="156"
+                  />
+                  <div class="wrap-topic">
+                    <h3 class="sub-title">
+                      Забавні факти про котів, які вас здивують
+                    </h3>
+                    <p>
+                      Веселі та цікаві факти про котів, які піднімуть вам
+                      настрій та розкажуть про їхні унікальність.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="list-item-articles">
+                <a href="#" class="articles-link">
+                  <img
+                    srcset="
+                      ./img/articles/articles4@2x-min.jpg 2x,
+                      ./img/articles/articles4-min.jpg    1x
+                    "
+                    src="./img/articles/articles4-min.jpg"
+                    alt="The cat is lying"
+                    width="264"
+                    height="156"
+                  />
+                  <div class="wrap-topic">
+                    <h3 class="sub-title">
+                      Історія та культурна значущість котів в усьому світ
+                    </h3>
+                    <p>
+                      Вивчіть, як коти впливали на культури різних народів та
+                      дізнайтеся історію спільного життя людей і котів.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+          <div class="wrap-socials-video">
+            <section class="socials">
+              <h2 class="title">Соцмережі</h2>
+              <ul class="list-socials">
+                <li class="list-item-socials">
+                  <a href="#" class="social-link">
+                    <div class="icon-wrap">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./img/sprite.svg#icon-instagram" />
+                      </svg>
+                    </div>
+                    <p class="social-sub">230.000</p>
+                  </a>
+                </li>
+                <li class="list-item-socials">
+                  <a href="#" class="social-link">
+                    <div class="icon-wrap">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./img/sprite.svg#icon-facebook" />
+                      </svg>
+                    </div>
+                    <p class="social-sub">230.000</p>
+                  </a>
+                </li>
+                <li class="list-item-socials">
+                  <a href="#" class="social-link">
+                    <div class="icon-wrap">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./img/sprite.svg#icon-youtube" />
+                      </svg>
+                    </div>
+                    <p class="social-sub">230.000</p>
+                  </a>
+                </li>
+                <li class="list-item-socials">
+                  <a href="#" class="social-link">
+                    <div class="icon-wrap">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./img/sprite.svg#icon-tiktok" />
+                      </svg>
+                    </div>
+                    <p class="social-sub">230.000</p>
+                  </a>
+                </li>
+                <li class="list-item-socials">
+                  <a href="#" class="social-link">
+                    <div class="icon-wrap">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./img/sprite.svg#icon-github" />
+                      </svg>
+                    </div>
+                    <p class="social-sub">230.000</p>
+                  </a>
+                </li>
+                <li class="list-item-socials">
+                  <a href="#" class="social-link">
+                    <div class="icon-wrap">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./img/sprite.svg#icon-twitter" />
+                      </svg>
+                    </div>
+                    <p class="social-sub">230.000</p>
+                  </a>
+                </li>
+              </ul>
+            </section>
+            <section class="video">
+              <h2 class="title">Відео з пухнастиками</h2>
+              <div class="wrap-video">
+                <svg width="44" height="44">
+                  <use href="./img/sprite.svg#icon-play" />
+                </svg>
                 <img
-                  srcset="
-                    ./img/articles/articles1@2x-min.jpg 2x,
-                    ./img/articles/articles1-min.jpg    1x
-                  "
-                  src="./img/articles/articles1-min.jpg"
-                  alt="Cute cat"
-                  width="264"
-                  height="156"
+                  srcset="./img/video@2x-min.jpg 2x, ./img/video-min.jpg 1x"
+                  src="./img/video-min.jpg"
+                  alt="Video with cats"
                 />
-                <div class="wrap-topic">
-                  <h3 class="sub-title">
-                    Найпопулярніші породи котів: який кіт підходить вам?
-                  </h3>
-                  <p>
-                    Вивчіть найпопулярніші породи котів і їхні особливості, щоб
-                    зробити інформований вибір, який підходить саме вам.
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="list-item-articles">
-              <a href="#" class="articles-link">
-                <img
-                  srcset="
-                    ./img/articles/articles2@2x-min.jpg 2x,
-                    ./img/articles/articles2-min.jpg    1x
-                  "
-                  src="./img/articles/articles2-min.jpg"
-                  alt="Cats in the basket"
-                  width="264"
-                  height="156"
-                />
-                <div class="wrap-topic">
-                  <h3 class="sub-title">
-                    Як піклуватися про вашого пухнастого друга: догляд за котом
-                  </h3>
-                  <p>
-                    Дізнайтеся про основні аспекти догляду за котом, включаючи
-                    годування, гігієну та взаємодію з вашим улюбленцем.
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="list-item-articles">
-              <a href="#" class="articles-link">
-                <img
-                  srcset="
-                    ./img/articles/articles3@2x-min.jpg 2x,
-                    ./img/articles/articles3-min.jpg    1x
-                  "
-                  src="./img/articles/articles3-min.jpg"
-                  alt="Cat plays with butterfly"
-                  width="264"
-                  height="156"
-                />
-                <div class="wrap-topic">
-                  <h3 class="sub-title">
-                    Забавні факти про котів, які вас здивують
-                  </h3>
-                  <p>
-                    Веселі та цікаві факти про котів, які піднімуть вам настрій
-                    та розкажуть про їхні унікальність.
-                  </p>
-                </div>
-              </a>
-            </li>
-            <li class="list-item-articles">
-              <a href="#" class="articles-link">
-                <img
-                  srcset="
-                    ./img/articles/articles4@2x-min.jpg 2x,
-                    ./img/articles/articles4-min.jpg    1x
-                  "
-                  src="./img/articles/articles4-min.jpg"
-                  alt="The cat is lying"
-                  width="264"
-                  height="156"
-                />
-                <div class="wrap-topic">
-                  <h3 class="sub-title">
-                    Історія та культурна значущість котів в усьому світ
-                  </h3>
-                  <p>
-                    Вивчіть, як коти впливали на культури різних народів та
-                    дізнайтеся історію спільного життя людей і котів.
-                  </p>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <section class="socials">
-          <h2 class="title">Соцмережі</h2>
-          <ul class="list-socials">
-            <li class="list-item-socials">
-              <a href="#" class="social-link">
-                <div class="icon-wrap">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./img/sprite.svg#icon-instagram" />
-                  </svg>
-                </div>
-                <p class="social-sub">230.000</p>
-              </a>
-            </li>
-            <li class="list-item-socials">
-              <a href="#" class="social-link">
-                <div class="icon-wrap">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./img/sprite.svg#icon-facebook" />
-                  </svg>
-                </div>
-                <p class="social-sub">230.000</p>
-              </a>
-            </li>
-            <li class="list-item-socials">
-              <a href="#" class="social-link">
-                <div class="icon-wrap">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./img/sprite.svg#icon-youtube" />
-                  </svg>
-                </div>
-                <p class="social-sub">230.000</p>
-              </a>
-            </li>
-            <li class="list-item-socials">
-              <a href="#" class="social-link">
-                <div class="icon-wrap">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./img/sprite.svg#icon-tiktok" />
-                  </svg>
-                </div>
-                <p class="social-sub">230.000</p>
-              </a>
-            </li>
-            <li class="list-item-socials">
-              <a href="#" class="social-link">
-                <div class="icon-wrap">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./img/sprite.svg#icon-github" />
-                  </svg>
-                </div>
-                <p class="social-sub">230.000</p>
-              </a>
-            </li>
-            <li class="list-item-socials">
-              <a href="#" class="social-link">
-                <div class="icon-wrap">
-                  <svg class="social-icon" width="16" height="16">
-                    <use href="./img/sprite.svg#icon-twitter" />
-                  </svg>
-                </div>
-                <p class="social-sub">230.000</p>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <section class="video">
-          <h2 class="title">Відео з пухнастиками</h2>
-          <div class="wrap-video">
-            <svg width="44" height="44">
-              <use href="./img/sprite.svg#icon-play" />
-            </svg>
-            <img
-              srcset="./img/video@2x-min.jpg 2x, ./img/video-min.jpg 1x"
-              src="./img/video-min.jpg"
-              alt="Video with cats"
-              width="320"
-              height="216"
-            />
+              </div>
+            </section>
           </div>
-        </section>
+        </div>
       </div>
     </main>
     <footer>
