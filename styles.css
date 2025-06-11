@@ -8,6 +8,7 @@ footer {
 
 footer {
   background-color: var(--blue);
+  margin-top: 96px;
 }
 
 .container {
@@ -16,9 +17,8 @@ footer {
   padding: 0 16px;
 }
 
-.hero,
-.articles {
-  margin-bottom: 80px;
+.hero {
+  margin-bottom: 96px;
 }
 
 .list-hero {
@@ -49,8 +49,14 @@ footer {
   color: var(--common-white);
 }
 
-.wrap-topic .sub-title {
-  margin-bottom: 12px;
+.common-container {
+  display: grid;
+  row-gap: 96px;
+}
+
+.wrap-topic {
+  display: grid;
+  gap: 12px;
 }
 
 .list-articles {
@@ -69,7 +75,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px 8px;
-  margin-bottom: 96px;
 }
 
 .list-item-socials {
@@ -135,10 +140,6 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.video {
-  margin-bottom: 96px;
-}
-
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 288px;
@@ -167,9 +168,27 @@ footer {
   .overlay {
     padding: 24px 48px;
   }
+
+  .video {
+    margin-bottom: 0;
+  }
+
   .common-container {
-    display: grid;
-    grid-template-columns: 1fr 360px;
-    gap: 24px;
+    gap: 60px 24px;
+    grid-template-areas:
+      "a a s"
+      "a a s"
+      "a a v"
+      "a a .";
+  }
+
+  .articles {
+    grid-area: a;
+  }
+  .socials {
+    grid-aria: s;
+  }
+  .video {
+    grid-area: v;
   }
 }
